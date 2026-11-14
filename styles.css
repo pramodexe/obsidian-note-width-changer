@@ -1,0 +1,39 @@
+/* Note Width Changer: applies only while the plugin is on */
+body.nwc-active {
+  --file-line-width: var(--nwc-width);
+  --line-width: var(--nwc-width);       /* Minimal theme */
+  --line-width-wide: var(--nwc-width);  /* Minimal theme */
+  --max-width: 100%;                    /* Minimal theme */
+}
+
+/* Editing / live preview */
+body.nwc-active .markdown-source-view.mod-cm6 .cm-sizer {
+  max-width: var(--nwc-width) !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+body.nwc-active .markdown-source-view.mod-cm6 .cm-content,
+body.nwc-active .markdown-source-view.mod-cm6 .cm-line {
+  max-width: 100% !important;
+}
+
+/* Reading view */
+body.nwc-active .markdown-preview-view .markdown-preview-sizer {
+  max-width: var(--nwc-width) !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Status bar button */
+.nwc-status { cursor: pointer; }
+
+/* Settings number box */
+.nwc-number { width: 80px; }
+
+/* Quick-adjust popup */
+.nwc-modal .nwc-row { display: flex; align-items: center; gap: 12px; margin: 12px 0; }
+.nwc-modal input[type="range"] { flex: 1; }
+.nwc-modal .nwc-value { min-width: 70px; text-align: right; font-variant-numeric: tabular-nums; }
+.nwc-modal .nwc-presets { display: flex; flex-wrap: wrap; gap: 6px; }

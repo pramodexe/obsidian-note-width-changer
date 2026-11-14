@@ -1,0 +1,10 @@
+{
+  "id": "note-width-changer",
+  "name": "Note Width Changer",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Set your notes to any text width with a live slider, in pixels or percent, instead of only readable or full width.",
+  "author": "pramodexe",
+  "authorUrl": "https://github.com/pramodexe",
+  "isDesktopOnly": false
+}
