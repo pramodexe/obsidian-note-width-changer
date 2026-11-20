@@ -1,8 +1,10 @@
 # Note Width Changer
 
-Obsidian only gives you two choices for how wide your notes are: **narrow** (with big empty margins on both sides) or **full width**.
+A tiny plugin that does one thing: it changes the width of your notes. That's it. 🙂
 
-Note Width Changer lets you pick **any width you like**, and you can see it change while you drag the slider.
+Obsidian only lets you pick **narrow** (with big empty margins) or **full width**. This plugin lets you pick **any width you like**, and it changes all of your notes at once.
+
+No extra features, no big toolkit, nothing else to learn. Just drag a slider and your notes get wider or narrower.
 
 ## What it does
 
